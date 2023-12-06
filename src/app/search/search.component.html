@@ -1,0 +1,10 @@
+<div class="search"> 
+    <div class="title">
+            Academe courses
+    </div>
+    <input class="icon"  type="text" placeholder="search" [(ngModel)]="itemSearch" (keyup)="print(itemSearch)">
+    <div class="list" *ngIf="showList">
+        <p *ngFor="let listActive of listActive ">{{listActive}}</p>
+    </div>
+</div>
+
