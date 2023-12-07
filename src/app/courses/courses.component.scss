@@ -1,0 +1,74 @@
+.courses{
+    width: 90%;
+    margin: auto;
+}
+.courses_content{
+    .card{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 20px;
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 25px;
+            padding: 2px;
+            background: linear-gradient(
+              239deg,
+        
+              #001f55,
+              #013367,
+              #046e9d,
+              #0585b2,
+              #0d99c3,
+              #1abadd,
+              #23d1f0,
+              #28dffb,
+              #2ae4ff
+            );
+            -webkit-mask: linear-gradient(#fff 0 0) content-box,
+              linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+          }
+        .cover{
+            width: 25%;
+            min-height: 200px;
+            max-height: 100%;
+            border-radius: 25px;
+            background-position: center;
+            background-size: cover;
+            margin-inline-end: 20px;
+        }
+        .des_course{
+            max-width: 50%;
+            text-transform: capitalize;
+            position: relative;
+            .name{
+
+            }
+            .constractor_name{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .des{
+                font-size: 16px;
+                max-height: 92px;
+                overflow: hidden;
+            }
+            .rate{
+                .rat{
+                    color: #f5e50c;
+                    margin-inline-end: 5px;
+                }
+            }
+            .hint{
+                color: gray;
+                font-size: 16px;
+            }
+        }
+    
+    }
+}

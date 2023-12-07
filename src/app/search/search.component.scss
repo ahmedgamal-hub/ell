@@ -14,7 +14,7 @@
         background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
+    
     }
     input{
         border-radius: 20px;
@@ -31,9 +31,14 @@
         padding: 3px 25px;
         width: 40%;
         background: gray;
-        // border-bottom-left-radius: 25px;
-        // border-bottom-right-radius: 25px;
         border-radius: 20px;
+        .btn_his{
+            cursor: pointer;
+            background: none !important;
+            border: none !important;
+            margin-bottom: 5px;
+            // width: 100%;
+        }
     }
 }
 P{
