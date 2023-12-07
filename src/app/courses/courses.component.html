@@ -3,12 +3,15 @@
 
 </div>
 <div class="courses_content">
-    <div class="card" *ngFor="let course of math">
+    <div class="card" *ngFor="let course of courses">
         <div class="cover" style="background-image: url({{course.cover}});">
-
+     
         </div>
         <div class="des_course">
-            <h2 class="name">{{course.courseName}}</h2>
+            <button>
+                <h2 class="name">{{course.courseName}}</h2>
+            </button>
+            
             <p class="constractor_name"> {{course.constractor}}</p>
             <p class="des"> {{course.des}}</p>
             <div class="rate">

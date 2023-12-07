@@ -99,10 +99,10 @@ constructor(
       this._Router.navigate([`/courses/${course.name}`]);
       
     } else  if(course.id == 2){
-      console.log("foubd");
+      this._Router.navigate([`/courses/${course.name}`]);
       
     } else  if(course.id == 3){
-      console.log("foubd");
+      this._Router.navigate([`/courses/${course.name}`]);
       
     }
     else{
